@@ -8,9 +8,9 @@
         <script>
             function sum(a) { // 引数は配列
                 let s = 0; // 合計値の計算用
-                    if (let i = 0; i < a.length; i++ ) {
-                        s += a[i];
-                    }
+                for (let i = 0; i < a.length; i++) {
+                    s += a[i];
+                }
                 return s;  // 戻り値はs
             }
             
